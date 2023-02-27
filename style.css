@@ -1,0 +1,55 @@
+html{
+    background-image: url("https://blueedtech.com.br/wp-content/uploads/2021/12/cybersecurity-1024x683.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Helvetica';
+    overflow: hidden;
+    -webkit-user-select: none;
+}
+
+#profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    image-rendering: optimizeQuality;
+    object-fit: cover;
+}
+
+#card {
+    display: block;
+    text-align: center;
+    border: 1px solid rgba(255, 184, 126, 0.5);
+    border-radius: 8px;
+    width: 30rem;
+    padding: 1rem;
+    margin: 5rem auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 .25rem rgba(255, 130, 130, 0.5), -.125rem -.125rem -.125rem 1rem rgba(255, 142, 29, 0.5), .125rem .125rem 1rem rgba(255, 25, 17, 0.5);
+}
+
+#name {
+    font-family: 'Lemon Milk';
+    font-size: 32px;
+    background: -webkit-linear-gradient(0deg, white 0%, rgb(255, 131, 9, 1) 35%, rgb(255, 38, 9, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.3px black;
+
+}
+
+#location {
+    font-family: 'Montserraf';
+    font-weight: 500;
+    font-size: 24px;
+    background: -webkit-linear-gradient(0deg, white 0%, rgb(230, 230, 230) 35%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgba(230, 230, 230);
+}
+
+#ping {
+    scale: 1.5;
+}
