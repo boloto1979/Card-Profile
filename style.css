@@ -53,3 +53,30 @@ html{
 #ping {
     scale: 1.5;
 }
+
+#html,
+#css,
+#js,
+#c,
+#python,
+#java{
+    display: inline-flex;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 0.25rem 1rem;
+    margin: 4px;
+    font-size: 18px;
+}
+
+#html:hover,
+#css:hover,
+#js:hover,
+#c:hover,
+#python:hover,
+#java:hover {
+    scale: 1.1;
+    background-color: aliceblue;
+    transition: 0.4 ease-out;
+    color: black;
+}
